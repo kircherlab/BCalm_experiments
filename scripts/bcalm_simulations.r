@@ -9,10 +9,10 @@ input = "data/simulations/variants/simulated_HepG2_variants.tsv.gz"
 nr_reps = as.integer(args[1])  
 aggregate = as.logical(args[2])
 if (aggregate == TRUE) {
-	output = "results/simulations/mpralm/"
+	output = "results/simulations/mpralm/simulated_6reps"
 } else {
 	print("BCalm  on barcodes")
-	output = "results/simulations/BCalm/"
+	output = "results/simulations/BCalm/simulated_6reps"
 }
 
 
